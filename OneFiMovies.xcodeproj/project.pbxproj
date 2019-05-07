@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEE4B14222822D5100FF4FB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE4B14122822D5100FF4FB8 /* AppDelegate.swift */; };
+		CEE4B14422822D5100FF4FB8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE4B14322822D5100FF4FB8 /* ViewController.swift */; };
+		CEE4B14722822D5100FF4FB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE4B14522822D5100FF4FB8 /* Main.storyboard */; };
+		CEE4B14922822D5300FF4FB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEE4B14822822D5300FF4FB8 /* Assets.xcassets */; };
+		CEE4B14C22822D5300FF4FB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE4B14A22822D5300FF4FB8 /* LaunchScreen.storyboard */; };
+		CEE4B15722822D5400FF4FB8 /* OneFiMoviesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE4B15622822D5400FF4FB8 /* OneFiMoviesTests.swift */; };
+		CEE4B16222822D5400FF4FB8 /* OneFiMoviesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE4B16122822D5400FF4FB8 /* OneFiMoviesUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEE4B15322822D5400FF4FB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEE4B13622822D5000FF4FB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEE4B13D22822D5000FF4FB8;
+			remoteInfo = OneFiMovies;
+		};
+		CEE4B15E22822D5400FF4FB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEE4B13622822D5000FF4FB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEE4B13D22822D5000FF4FB8;
+			remoteInfo = OneFiMovies;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEE4B13E22822D5000FF4FB8 /* OneFiMovies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneFiMovies.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEE4B14122822D5100FF4FB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEE4B14322822D5100FF4FB8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEE4B14622822D5100FF4FB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEE4B14822822D5300FF4FB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEE4B14B22822D5300FF4FB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEE4B14D22822D5300FF4FB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEE4B15222822D5400FF4FB8 /* OneFiMoviesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OneFiMoviesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEE4B15622822D5400FF4FB8 /* OneFiMoviesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneFiMoviesTests.swift; sourceTree = "<group>"; };
+		CEE4B15822822D5400FF4FB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEE4B15D22822D5400FF4FB8 /* OneFiMoviesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OneFiMoviesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEE4B16122822D5400FF4FB8 /* OneFiMoviesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneFiMoviesUITests.swift; sourceTree = "<group>"; };
+		CEE4B16322822D5400FF4FB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEE4B13B22822D5000FF4FB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE4B14F22822D5400FF4FB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE4B15A22822D5400FF4FB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEE4B13522822D5000FF4FB8 = {
+			isa = PBXGroup;
+			children = (
+				CEE4B14022822D5000FF4FB8 /* OneFiMovies */,
+				CEE4B15522822D5400FF4FB8 /* OneFiMoviesTests */,
+				CEE4B16022822D5400FF4FB8 /* OneFiMoviesUITests */,
+				CEE4B13F22822D5000FF4FB8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEE4B13F22822D5000FF4FB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEE4B13E22822D5000FF4FB8 /* OneFiMovies.app */,
+				CEE4B15222822D5400FF4FB8 /* OneFiMoviesTests.xctest */,
+				CEE4B15D22822D5400FF4FB8 /* OneFiMoviesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEE4B14022822D5000FF4FB8 /* OneFiMovies */ = {
+			isa = PBXGroup;
+			children = (
+				CEE4B14122822D5100FF4FB8 /* AppDelegate.swift */,
+				CEE4B14322822D5100FF4FB8 /* ViewController.swift */,
+				CEE4B14522822D5100FF4FB8 /* Main.storyboard */,
+				CEE4B14822822D5300FF4FB8 /* Assets.xcassets */,
+				CEE4B14A22822D5300FF4FB8 /* LaunchScreen.storyboard */,
+				CEE4B14D22822D5300FF4FB8 /* Info.plist */,
+			);
+			path = OneFiMovies;
+			sourceTree = "<group>";
+		};
+		CEE4B15522822D5400FF4FB8 /* OneFiMoviesTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEE4B15622822D5400FF4FB8 /* OneFiMoviesTests.swift */,
+				CEE4B15822822D5400FF4FB8 /* Info.plist */,
+			);
+			path = OneFiMoviesTests;
+			sourceTree = "<group>";
+		};
+		CEE4B16022822D5400FF4FB8 /* OneFiMoviesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CEE4B16122822D5400FF4FB8 /* OneFiMoviesUITests.swift */,
+				CEE4B16322822D5400FF4FB8 /* Info.plist */,
+			);
+			path = OneFiMoviesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEE4B13D22822D5000FF4FB8 /* OneFiMovies */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEE4B16622822D5400FF4FB8 /* Build configuration list for PBXNativeTarget "OneFiMovies" */;
+			buildPhases = (
+				CEE4B13A22822D5000FF4FB8 /* Sources */,
+				CEE4B13B22822D5000FF4FB8 /* Frameworks */,
+				CEE4B13C22822D5000FF4FB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneFiMovies;
+			productName = OneFiMovies;
+			productReference = CEE4B13E22822D5000FF4FB8 /* OneFiMovies.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEE4B15122822D5400FF4FB8 /* OneFiMoviesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEE4B16922822D5400FF4FB8 /* Build configuration list for PBXNativeTarget "OneFiMoviesTests" */;
+			buildPhases = (
+				CEE4B14E22822D5400FF4FB8 /* Sources */,
+				CEE4B14F22822D5400FF4FB8 /* Frameworks */,
+				CEE4B15022822D5400FF4FB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEE4B15422822D5400FF4FB8 /* PBXTargetDependency */,
+			);
+			name = OneFiMoviesTests;
+			productName = OneFiMoviesTests;
+			productReference = CEE4B15222822D5400FF4FB8 /* OneFiMoviesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEE4B15C22822D5400FF4FB8 /* OneFiMoviesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEE4B16C22822D5400FF4FB8 /* Build configuration list for PBXNativeTarget "OneFiMoviesUITests" */;
+			buildPhases = (
+				CEE4B15922822D5400FF4FB8 /* Sources */,
+				CEE4B15A22822D5400FF4FB8 /* Frameworks */,
+				CEE4B15B22822D5400FF4FB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEE4B15F22822D5400FF4FB8 /* PBXTargetDependency */,
+			);
+			name = OneFiMoviesUITests;
+			productName = OneFiMoviesUITests;
+			productReference = CEE4B15D22822D5400FF4FB8 /* OneFiMoviesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEE4B13622822D5000FF4FB8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "GritWise Solutions";
+				TargetAttributes = {
+					CEE4B13D22822D5000FF4FB8 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					CEE4B15122822D5400FF4FB8 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = CEE4B13D22822D5000FF4FB8;
+					};
+					CEE4B15C22822D5400FF4FB8 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = CEE4B13D22822D5000FF4FB8;
+					};
+				};
+			};
+			buildConfigurationList = CEE4B13922822D5000FF4FB8 /* Build configuration list for PBXProject "OneFiMovies" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEE4B13522822D5000FF4FB8;
+			productRefGroup = CEE4B13F22822D5000FF4FB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEE4B13D22822D5000FF4FB8 /* OneFiMovies */,
+				CEE4B15122822D5400FF4FB8 /* OneFiMoviesTests */,
+				CEE4B15C22822D5400FF4FB8 /* OneFiMoviesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEE4B13C22822D5000FF4FB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE4B14C22822D5300FF4FB8 /* LaunchScreen.storyboard in Resources */,
+				CEE4B14922822D5300FF4FB8 /* Assets.xcassets in Resources */,
+				CEE4B14722822D5100FF4FB8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE4B15022822D5400FF4FB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE4B15B22822D5400FF4FB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEE4B13A22822D5000FF4FB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE4B14422822D5100FF4FB8 /* ViewController.swift in Sources */,
+				CEE4B14222822D5100FF4FB8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE4B14E22822D5400FF4FB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE4B15722822D5400FF4FB8 /* OneFiMoviesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE4B15922822D5400FF4FB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE4B16222822D5400FF4FB8 /* OneFiMoviesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEE4B15422822D5400FF4FB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEE4B13D22822D5000FF4FB8 /* OneFiMovies */;
+			targetProxy = CEE4B15322822D5400FF4FB8 /* PBXContainerItemProxy */;
+		};
+		CEE4B15F22822D5400FF4FB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEE4B13D22822D5000FF4FB8 /* OneFiMovies */;
+			targetProxy = CEE4B15E22822D5400FF4FB8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEE4B14522822D5100FF4FB8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEE4B14622822D5100FF4FB8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEE4B14A22822D5300FF4FB8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEE4B14B22822D5300FF4FB8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEE4B16422822D5400FF4FB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEE4B16522822D5400FF4FB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEE4B16722822D5400FF4FB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P25E46B4MH;
+				INFOPLIST_FILE = OneFiMovies/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gritwise.com.OneFiMovies;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEE4B16822822D5400FF4FB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P25E46B4MH;
+				INFOPLIST_FILE = OneFiMovies/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gritwise.com.OneFiMovies;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CEE4B16A22822D5400FF4FB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P25E46B4MH;
+				INFOPLIST_FILE = OneFiMoviesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gritwise.com.OneFiMoviesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OneFiMovies.app/OneFiMovies";
+			};
+			name = Debug;
+		};
+		CEE4B16B22822D5400FF4FB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P25E46B4MH;
+				INFOPLIST_FILE = OneFiMoviesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gritwise.com.OneFiMoviesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OneFiMovies.app/OneFiMovies";
+			};
+			name = Release;
+		};
+		CEE4B16D22822D5400FF4FB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P25E46B4MH;
+				INFOPLIST_FILE = OneFiMoviesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gritwise.com.OneFiMoviesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OneFiMovies;
+			};
+			name = Debug;
+		};
+		CEE4B16E22822D5400FF4FB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P25E46B4MH;
+				INFOPLIST_FILE = OneFiMoviesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gritwise.com.OneFiMoviesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OneFiMovies;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEE4B13922822D5000FF4FB8 /* Build configuration list for PBXProject "OneFiMovies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE4B16422822D5400FF4FB8 /* Debug */,
+				CEE4B16522822D5400FF4FB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEE4B16622822D5400FF4FB8 /* Build configuration list for PBXNativeTarget "OneFiMovies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE4B16722822D5400FF4FB8 /* Debug */,
+				CEE4B16822822D5400FF4FB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEE4B16922822D5400FF4FB8 /* Build configuration list for PBXNativeTarget "OneFiMoviesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE4B16A22822D5400FF4FB8 /* Debug */,
+				CEE4B16B22822D5400FF4FB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEE4B16C22822D5400FF4FB8 /* Build configuration list for PBXNativeTarget "OneFiMoviesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE4B16D22822D5400FF4FB8 /* Debug */,
+				CEE4B16E22822D5400FF4FB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEE4B13622822D5000FF4FB8 /* Project object */;
+}

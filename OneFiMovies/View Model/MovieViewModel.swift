@@ -11,8 +11,8 @@ import Foundation
 class MovieViewModel {
     
     fileprivate let networkManager: NetworkManager!
-    var moviesResponse = [Movie(title: "", year: "", poster: "")]
-    
+    var movies = [Movie(title: "", year: "", poster: "", director: "")]
+    var reload:(() -> ())?
     
     init(networkManager: NetworkManager) {
         self.networkManager = networkManager
@@ -24,8 +24,8 @@ class MovieViewModel {
             
             guard let strongSelf = self else { return }
             guard let movies = movies  else { return }
-            
-            strongSelf.moviesResponse = movies.movies
+            strongSelf.movies.append(contentsOf: movies.movies)
+            strongSelf.reload?()
         }
     }
 }

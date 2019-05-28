@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CEA74C6D229B11E20008811C /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA74C6C229B11E20008811C /* APIService.swift */; };
+		CEA74C6F229B12A80008811C /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA74C6E229B12A80008811C /* Movie.swift */; };
+		CEA74C71229B17700008811C /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA74C70229B17700008811C /* Constant.swift */; };
+		CEA74C75229B18E90008811C /* EndPointType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA74C74229B18E90008811C /* EndPointType.swift */; };
+		CEA74C78229B1A340008811C /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA74C77229B1A340008811C /* HTTPMethod.swift */; };
+		CEA74C7A229B1AA10008811C /* HTTPTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA74C79229B1AA10008811C /* HTTPTask.swift */; };
+		CEA74C7D229B1B770008811C /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA74C7C229B1B760008811C /* ParameterEncoding.swift */; };
+		CEA74C7F229B1E170008811C /* URLParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA74C7E229B1E170008811C /* URLParameterEncoder.swift */; };
 		CEE4B14222822D5100FF4FB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE4B14122822D5100FF4FB8 /* AppDelegate.swift */; };
 		CEE4B14422822D5100FF4FB8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE4B14322822D5100FF4FB8 /* ViewController.swift */; };
 		CEE4B14722822D5100FF4FB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE4B14522822D5100FF4FB8 /* Main.storyboard */; };
@@ -14,6 +22,13 @@
 		CEE4B14C22822D5300FF4FB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE4B14A22822D5300FF4FB8 /* LaunchScreen.storyboard */; };
 		CEE4B15722822D5400FF4FB8 /* OneFiMoviesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE4B15622822D5400FF4FB8 /* OneFiMoviesTests.swift */; };
 		CEE4B16222822D5400FF4FB8 /* OneFiMoviesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE4B16122822D5400FF4FB8 /* OneFiMoviesUITests.swift */; };
+		CEEC4449229DCB5E009CD548 /* JSONParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEC4448229DCB5D009CD548 /* JSONParameterEncoder.swift */; };
+		CEEC444B229DCFF8009CD548 /* NetworkRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEC444A229DCFF8009CD548 /* NetworkRouter.swift */; };
+		CEEC444D229DD124009CD548 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEC444C229DD124009CD548 /* Router.swift */; };
+		CEEC444F229DD66D009CD548 /* MovieEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEC444E229DD66D009CD548 /* MovieEndPoint.swift */; };
+		CEEC4452229DD851009CD548 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEC4451229DD851009CD548 /* NetworkManager.swift */; };
+		CEEC4454229DDAC0009CD548 /* MovieViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEC4453229DDAC0009CD548 /* MovieViewModel.swift */; };
+		CEEC4456229DEEF5009CD548 /* NetworkLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEC4455229DEEF5009CD548 /* NetworkLogger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +49,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CEA74C6C229B11E20008811C /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		CEA74C6E229B12A80008811C /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		CEA74C70229B17700008811C /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		CEA74C74229B18E90008811C /* EndPointType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPointType.swift; sourceTree = "<group>"; };
+		CEA74C77229B1A340008811C /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		CEA74C79229B1AA10008811C /* HTTPTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPTask.swift; sourceTree = "<group>"; };
+		CEA74C7C229B1B760008811C /* ParameterEncoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParameterEncoding.swift; sourceTree = "<group>"; };
+		CEA74C7E229B1E170008811C /* URLParameterEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLParameterEncoder.swift; sourceTree = "<group>"; };
 		CEE4B13E22822D5000FF4FB8 /* OneFiMovies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneFiMovies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEE4B14122822D5100FF4FB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEE4B14322822D5100FF4FB8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +70,13 @@
 		CEE4B15D22822D5400FF4FB8 /* OneFiMoviesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OneFiMoviesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEE4B16122822D5400FF4FB8 /* OneFiMoviesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneFiMoviesUITests.swift; sourceTree = "<group>"; };
 		CEE4B16322822D5400FF4FB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEEC4448229DCB5D009CD548 /* JSONParameterEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParameterEncoder.swift; sourceTree = "<group>"; };
+		CEEC444A229DCFF8009CD548 /* NetworkRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRouter.swift; sourceTree = "<group>"; };
+		CEEC444C229DD124009CD548 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		CEEC444E229DD66D009CD548 /* MovieEndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieEndPoint.swift; sourceTree = "<group>"; };
+		CEEC4451229DD851009CD548 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		CEEC4453229DDAC0009CD548 /* MovieViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewModel.swift; sourceTree = "<group>"; };
+		CEEC4455229DEEF5009CD548 /* NetworkLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLogger.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +104,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CEA74C72229B18C30008811C /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				CEEC4450229DD836009CD548 /* Manager */,
+				CEA74C7B229B1B6C0008811C /* Encoding */,
+				CEA74C76229B1A1D0008811C /* Service */,
+				CEA74C73229B18D60008811C /* Endpoint */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		CEA74C73229B18D60008811C /* Endpoint */ = {
+			isa = PBXGroup;
+			children = (
+				CEA74C74229B18E90008811C /* EndPointType.swift */,
+				CEEC444E229DD66D009CD548 /* MovieEndPoint.swift */,
+			);
+			path = Endpoint;
+			sourceTree = "<group>";
+		};
+		CEA74C76229B1A1D0008811C /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				CEA74C77229B1A340008811C /* HTTPMethod.swift */,
+				CEA74C79229B1AA10008811C /* HTTPTask.swift */,
+				CEEC444A229DCFF8009CD548 /* NetworkRouter.swift */,
+				CEEC444C229DD124009CD548 /* Router.swift */,
+				CEEC4455229DEEF5009CD548 /* NetworkLogger.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		CEA74C7B229B1B6C0008811C /* Encoding */ = {
+			isa = PBXGroup;
+			children = (
+				CEA74C7C229B1B760008811C /* ParameterEncoding.swift */,
+				CEA74C7E229B1E170008811C /* URLParameterEncoder.swift */,
+				CEEC4448229DCB5D009CD548 /* JSONParameterEncoder.swift */,
+			);
+			path = Encoding;
+			sourceTree = "<group>";
+		};
 		CEE4B13522822D5000FF4FB8 = {
 			isa = PBXGroup;
 			children = (
@@ -97,12 +169,16 @@
 		CEE4B14022822D5000FF4FB8 /* OneFiMovies */ = {
 			isa = PBXGroup;
 			children = (
-				CEE4B14122822D5100FF4FB8 /* AppDelegate.swift */,
-				CEE4B14322822D5100FF4FB8 /* ViewController.swift */,
-				CEE4B14522822D5100FF4FB8 /* Main.storyboard */,
-				CEE4B14822822D5300FF4FB8 /* Assets.xcassets */,
-				CEE4B14A22822D5300FF4FB8 /* LaunchScreen.storyboard */,
-				CEE4B14D22822D5300FF4FB8 /* Info.plist */,
+				CEA74C72229B18C30008811C /* Networking */,
+				CEE4B17822822DF800FF4FB8 /* Service */,
+				CEE4B17722822DB600FF4FB8 /* Resources */,
+				CEE4B17622822DAC00FF4FB8 /* Config */,
+				CEE4B17422822D9700FF4FB8 /* UI */,
+				CEE4B17322822D8200FF4FB8 /* Extensions */,
+				CEE4B17222822D7D00FF4FB8 /* Model */,
+				CEE4B17122822D7300FF4FB8 /* View Controller */,
+				CEE4B17022822D6C00FF4FB8 /* View Model */,
+				CEE4B16F22822D6600FF4FB8 /* App */,
 			);
 			path = OneFiMovies;
 			sourceTree = "<group>";
@@ -123,6 +199,95 @@
 				CEE4B16322822D5400FF4FB8 /* Info.plist */,
 			);
 			path = OneFiMoviesUITests;
+			sourceTree = "<group>";
+		};
+		CEE4B16F22822D6600FF4FB8 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				CEE4B14122822D5100FF4FB8 /* AppDelegate.swift */,
+				CEA74C70229B17700008811C /* Constant.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		CEE4B17022822D6C00FF4FB8 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				CEEC4453229DDAC0009CD548 /* MovieViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		CEE4B17122822D7300FF4FB8 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CEE4B14322822D5100FF4FB8 /* ViewController.swift */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		CEE4B17222822D7D00FF4FB8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CEA74C6E229B12A80008811C /* Movie.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CEE4B17322822D8200FF4FB8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CEE4B17422822D9700FF4FB8 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				CEE4B17522822D9B00FF4FB8 /* Storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		CEE4B17522822D9B00FF4FB8 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				CEE4B14522822D5100FF4FB8 /* Main.storyboard */,
+				CEE4B14A22822D5300FF4FB8 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		CEE4B17622822DAC00FF4FB8 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				CEE4B14D22822D5300FF4FB8 /* Info.plist */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		CEE4B17722822DB600FF4FB8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CEE4B14822822D5300FF4FB8 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CEE4B17822822DF800FF4FB8 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				CEA74C6C229B11E20008811C /* APIService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		CEEC4450229DD836009CD548 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				CEEC4451229DD851009CD548 /* NetworkManager.swift */,
+			);
+			path = Manager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +421,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEA74C7D229B1B770008811C /* ParameterEncoding.swift in Sources */,
 				CEE4B14422822D5100FF4FB8 /* ViewController.swift in Sources */,
+				CEA74C6D229B11E20008811C /* APIService.swift in Sources */,
+				CEA74C78229B1A340008811C /* HTTPMethod.swift in Sources */,
+				CEEC4449229DCB5E009CD548 /* JSONParameterEncoder.swift in Sources */,
+				CEEC444B229DCFF8009CD548 /* NetworkRouter.swift in Sources */,
+				CEA74C75229B18E90008811C /* EndPointType.swift in Sources */,
+				CEA74C7A229B1AA10008811C /* HTTPTask.swift in Sources */,
+				CEA74C71229B17700008811C /* Constant.swift in Sources */,
+				CEA74C6F229B12A80008811C /* Movie.swift in Sources */,
+				CEA74C7F229B1E170008811C /* URLParameterEncoder.swift in Sources */,
+				CEEC4454229DDAC0009CD548 /* MovieViewModel.swift in Sources */,
+				CEEC444F229DD66D009CD548 /* MovieEndPoint.swift in Sources */,
+				CEEC4452229DD851009CD548 /* NetworkManager.swift in Sources */,
 				CEE4B14222822D5100FF4FB8 /* AppDelegate.swift in Sources */,
+				CEEC4456229DEEF5009CD548 /* NetworkLogger.swift in Sources */,
+				CEEC444D229DD124009CD548 /* Router.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,14 +614,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P25E46B4MH;
-				INFOPLIST_FILE = OneFiMovies/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/OneFiMovies/Config/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.gritwise.com.OneFiMovies;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -452,14 +632,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P25E46B4MH;
-				INFOPLIST_FILE = OneFiMovies/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/OneFiMovies/Config/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.gritwise.com.OneFiMovies;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

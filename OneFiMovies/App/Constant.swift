@@ -3,7 +3,7 @@
 //  OneFiMovies
 //
 //  Created by Perfetc Aduh on 26/05/2019.
-//  Copyright © 2019 GritWise Solutions. All rights reserved.
+//  Copyright © 2019 Perfect Aduh. All rights reserved.
 //
 
 import Foundation

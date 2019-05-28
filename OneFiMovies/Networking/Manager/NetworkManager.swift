@@ -2,8 +2,8 @@
 //  NetworkManager.swift
 //  OneFiMovies
 //
-//  Created by user on 28/05/2019.
-//  Copyright © 2019 GritWise Solutions. All rights reserved.
+//  Created by Perfect Aduh on 28/05/2019.
+//  Copyright © 2019 Perfect Aduh. All rights reserved.
 //
 
 import Foundation

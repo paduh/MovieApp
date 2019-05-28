@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CEA74C6D229B11E20008811C /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA74C6C229B11E20008811C /* APIService.swift */; };
 		CEA74C6F229B12A80008811C /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA74C6E229B12A80008811C /* Movie.swift */; };
 		CEA74C71229B17700008811C /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA74C70229B17700008811C /* Constant.swift */; };
 		CEA74C75229B18E90008811C /* EndPointType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA74C74229B18E90008811C /* EndPointType.swift */; };
@@ -49,7 +48,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CEA74C6C229B11E20008811C /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 		CEA74C6E229B12A80008811C /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		CEA74C70229B17700008811C /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		CEA74C74229B18E90008811C /* EndPointType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPointType.swift; sourceTree = "<group>"; };
@@ -170,7 +168,6 @@
 			isa = PBXGroup;
 			children = (
 				CEA74C72229B18C30008811C /* Networking */,
-				CEE4B17822822DF800FF4FB8 /* Service */,
 				CEE4B17722822DB600FF4FB8 /* Resources */,
 				CEE4B17622822DAC00FF4FB8 /* Config */,
 				CEE4B17422822D9700FF4FB8 /* UI */,
@@ -272,14 +269,6 @@
 				CEE4B14822822D5300FF4FB8 /* Assets.xcassets */,
 			);
 			path = Resources;
-			sourceTree = "<group>";
-		};
-		CEE4B17822822DF800FF4FB8 /* Service */ = {
-			isa = PBXGroup;
-			children = (
-				CEA74C6C229B11E20008811C /* APIService.swift */,
-			);
-			path = Service;
 			sourceTree = "<group>";
 		};
 		CEEC4450229DD836009CD548 /* Manager */ = {
@@ -423,7 +412,6 @@
 			files = (
 				CEA74C7D229B1B770008811C /* ParameterEncoding.swift in Sources */,
 				CEE4B14422822D5100FF4FB8 /* ViewController.swift in Sources */,
-				CEA74C6D229B11E20008811C /* APIService.swift in Sources */,
 				CEA74C78229B1A340008811C /* HTTPMethod.swift in Sources */,
 				CEEC4449229DCB5E009CD548 /* JSONParameterEncoder.swift in Sources */,
 				CEEC444B229DCFF8009CD548 /* NetworkRouter.swift in Sources */,

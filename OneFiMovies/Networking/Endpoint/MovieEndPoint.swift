@@ -45,7 +45,7 @@ extension MovieApi: EndPointype {
 
     var path: String {
         switch self {
-        case .search(let title):
+        case .search(_):
             return "/"
         }
     }

@@ -21,7 +21,7 @@ class MovieController: BaseListController {
         networkManager = NetworkManager()
         self.viewModel = MovieViewModel(networkManager: networkManager)
         
-        viewModel.getMovies(title: "batman")
+        viewModel.getMovies(title: "batman", page: 4)
         
         collectionView.backgroundColor = .white
         collectionView.register(MovieCell.self)
@@ -56,5 +56,22 @@ extension MovieController: UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         
         return .init(width: view.frame.width, height: 150)
+    }
+    
+    override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        
+        
+    }
+    
+    override func collectionView(_ collectionView: UICollectionView, willDisplay cell: UICollectionViewCell, forItemAt indexPath: IndexPath) {
+        if indexPath.row == viewModel.movies.count - 1 {  //numberofitem count
+            loadMoreMovies()
+        }
+    }
+    
+    func loadMoreMovies(){
+        //requests another set of data (10 more items) from the API.
+        viewModel.currentPage += 1
+        viewModel.getMovies(title: "batman", page: viewModel.currentPage)
     }
 }

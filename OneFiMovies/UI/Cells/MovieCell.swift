@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SDWebImage
 
 class MovieCell: UICollectionViewCell {
     
@@ -27,9 +28,16 @@ class MovieCell: UICollectionViewCell {
     }
 
     private func setupCell() {
-        
+        if let url = URL(string: movie.poster) {
+            moviePostImgView.sd_setImage(with: url)
+        }
         titleLbl.text = movie.title
-        directorLbl.text = movie.director
         yearLbl.text = movie.year
+        
+        if movie.director == nil {
+            directorLbl.text = "NA"
+        }else {
+            directorLbl.text = movie.director
+        }
     }
 }

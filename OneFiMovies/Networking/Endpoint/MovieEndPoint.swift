@@ -16,7 +16,7 @@ enum NetworkEnvironment {
 }
 
 public enum MovieApi {
-    case search(title: String)
+    case search(title: String, page: Int)
 }
 
 extension MovieApi: EndPointype {
@@ -56,10 +56,11 @@ extension MovieApi: EndPointype {
 
     var task: HTTPTask {
         switch self {
-        case .search(let title):
+        case .search(let title, let page):
             return .requestParameters(bodyParameters: nil, bodyEncoding: .urlEncoding,
                                           urlParameters: ["apikey": Constanst.apiKey,
-                                                          "s":title])
+                                                          "s":title,
+                                                          "page": page])
         }
     }
 }

@@ -13,14 +13,15 @@ class MovieViewModel {
     fileprivate let networkManager: NetworkManager!
     var movies = [Movie]()
     var reload:(() -> ())?
+    var currentPage: Int = 1
     
     init(networkManager: NetworkManager) {
         self.networkManager = networkManager
     }
     
-    func getMovies(title: String) {
+    func getMovies(title: String, page: Int) {
         
-        networkManager.getMovies(title: title) { [weak self] (movies, error) in
+        networkManager.getMovies(title: title, page: page) { [weak self] (movies, error) in
             
             guard let strongSelf = self else { return }
             guard let movies = movies  else { return }

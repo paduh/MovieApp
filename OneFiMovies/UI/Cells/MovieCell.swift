@@ -35,7 +35,7 @@ class MovieCell: UICollectionViewCell {
         yearLbl.text = movie.year
         
         if movie.director == nil {
-            directorLbl.text = "NA"
+            directorLbl.text = Constanst.NA
         }else {
             directorLbl.text = movie.director
         }

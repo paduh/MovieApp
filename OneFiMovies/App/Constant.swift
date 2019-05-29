@@ -13,4 +13,5 @@ struct Constanst {
     
     static let apiKey = "ad8d1c89"
     static let baseUrl = "http://www.omdbapi.com"
+    static let NA = "NA"
 }

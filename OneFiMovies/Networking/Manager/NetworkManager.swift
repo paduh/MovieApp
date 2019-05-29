@@ -30,8 +30,10 @@ struct NetworkManager {
     static let environment : NetworkEnvironment = .production
     let router = Router<MovieApi>()
     
-    func getMovies(title: String, page: Int, completion: @escaping (_ movie: MovieResponse?,_ error: String?)->()){
-        router.request(route: .search(title: title, page: page)) { data, response, error in
+    
+    //TODO Implement this using Generic to avoid code duplicaiton
+    func getMoviesPageSearch(title: String, page: Int, completion: @escaping (_ movie: MovieResponse?,_ error: String?)->()){
+        router.request(route: .titlePageSearch(title: title, page: page)) { data, response, error in
             
             if error != nil {
                 completion(nil, "Please check your network connection.")

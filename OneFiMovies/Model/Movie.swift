@@ -15,6 +15,9 @@ struct Movie: Codable {
     let year: String
     let poster: String
     var director: String?
+    var writer: String?
+    var genre: String?
+
 
     private enum CodingKeys: String, CodingKey {
         
@@ -22,6 +25,8 @@ struct Movie: Codable {
         case year = "Year"
         case poster = "Poster"
         case director = "Director"
+        case writer = "Writer"
+        case genre = "Genre"
     }
 }
 

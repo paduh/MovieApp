@@ -18,7 +18,7 @@
 		CEA74C7D229B1B770008811C /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA74C7C229B1B760008811C /* ParameterEncoding.swift */; };
 		CEA74C7F229B1E170008811C /* URLParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA74C7E229B1E170008811C /* URLParameterEncoder.swift */; };
 		CEE4B14222822D5100FF4FB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE4B14122822D5100FF4FB8 /* AppDelegate.swift */; };
-		CEE4B14422822D5100FF4FB8 /* MovieController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE4B14322822D5100FF4FB8 /* MovieController.swift */; };
+		CEE4B14422822D5100FF4FB8 /* MoviesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE4B14322822D5100FF4FB8 /* MoviesController.swift */; };
 		CEE4B14722822D5100FF4FB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE4B14522822D5100FF4FB8 /* Main.storyboard */; };
 		CEE4B14922822D5300FF4FB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEE4B14822822D5300FF4FB8 /* Assets.xcassets */; };
 		CEE4B14C22822D5300FF4FB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE4B14A22822D5300FF4FB8 /* LaunchScreen.storyboard */; };
@@ -35,6 +35,9 @@
 		CEEC445B229DF62A009CD548 /* MovieCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEEC4459229DF62A009CD548 /* MovieCell.xib */; };
 		CEEC445D229DF7FF009CD548 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEC445C229DF7FF009CD548 /* CollectionViewController.swift */; };
 		CEEC4463229DFBC1009CD548 /* UICollectionView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEC4462229DFBC1009CD548 /* UICollectionView + Extension.swift */; };
+		CEF569F8229F05E1006B672F /* MovieController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF569F7229F05E1006B672F /* MovieController.swift */; };
+		CEF569FA229F07DD006B672F /* UIViewController + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF569F9229F07DD006B672F /* UIViewController + Extension.swift */; };
+		CEF569FD229F082E006B672F /* StoryboardEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF569FC229F082E006B672F /* StoryboardEntry.swift */; };
 		E0EF80B9A8A65096B6B5FC27 /* Pods_OneFiMoviesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27C93BD4239F20C3D95FA18C /* Pods_OneFiMoviesUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -73,7 +76,7 @@
 		CEA74C7E229B1E170008811C /* URLParameterEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLParameterEncoder.swift; sourceTree = "<group>"; };
 		CEE4B13E22822D5000FF4FB8 /* OneFiMovies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneFiMovies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEE4B14122822D5100FF4FB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CEE4B14322822D5100FF4FB8 /* MovieController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieController.swift; sourceTree = "<group>"; };
+		CEE4B14322822D5100FF4FB8 /* MoviesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesController.swift; sourceTree = "<group>"; };
 		CEE4B14622822D5100FF4FB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CEE4B14822822D5300FF4FB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEE4B14B22822D5300FF4FB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -95,6 +98,9 @@
 		CEEC4459229DF62A009CD548 /* MovieCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieCell.xib; sourceTree = "<group>"; };
 		CEEC445C229DF7FF009CD548 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		CEEC4462229DFBC1009CD548 /* UICollectionView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView + Extension.swift"; sourceTree = "<group>"; };
+		CEF569F7229F05E1006B672F /* MovieController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieController.swift; sourceTree = "<group>"; };
+		CEF569F9229F07DD006B672F /* UIViewController + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + Extension.swift"; sourceTree = "<group>"; };
+		CEF569FC229F082E006B672F /* StoryboardEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardEntry.swift; sourceTree = "<group>"; };
 		E02EF64723133B1502DA4E45 /* Pods_OneFiMoviesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OneFiMoviesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF331D89D11B3387284FFC2D /* Pods-OneFiMoviesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneFiMoviesTests.debug.xcconfig"; path = "Target Support Files/Pods-OneFiMoviesTests/Pods-OneFiMoviesTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -204,6 +210,7 @@
 		CEE4B14022822D5000FF4FB8 /* OneFiMovies */ = {
 			isa = PBXGroup;
 			children = (
+				CEF569FB229F07F4006B672F /* Enum */,
 				CEA74C72229B18C30008811C /* Networking */,
 				CEE4B17722822DB600FF4FB8 /* Resources */,
 				CEE4B17622822DAC00FF4FB8 /* Config */,
@@ -255,9 +262,10 @@
 		CEE4B17122822D7300FF4FB8 /* View Controller */ = {
 			isa = PBXGroup;
 			children = (
-				CEE4B14322822D5100FF4FB8 /* MovieController.swift */,
+				CEE4B14322822D5100FF4FB8 /* MoviesController.swift */,
 				CEEC445C229DF7FF009CD548 /* CollectionViewController.swift */,
 				CE892E05229E0A09004D2A88 /* MovieDetailsController.swift */,
+				CEF569F7229F05E1006B672F /* MovieController.swift */,
 			);
 			path = "View Controller";
 			sourceTree = "<group>";
@@ -274,6 +282,7 @@
 			isa = PBXGroup;
 			children = (
 				CEEC4462229DFBC1009CD548 /* UICollectionView + Extension.swift */,
+				CEF569F9229F07DD006B672F /* UIViewController + Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -327,6 +336,14 @@
 				CEEC4459229DF62A009CD548 /* MovieCell.xib */,
 			);
 			path = Cells;
+			sourceTree = "<group>";
+		};
+		CEF569FB229F07F4006B672F /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				CEF569FC229F082E006B672F /* StoryboardEntry.swift */,
+			);
+			path = Enum;
 			sourceTree = "<group>";
 		};
 		FA264DC6CADF74CB1E08B10A /* Pods */ = {
@@ -569,18 +586,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEF569FA229F07DD006B672F /* UIViewController + Extension.swift in Sources */,
 				CEEC445D229DF7FF009CD548 /* CollectionViewController.swift in Sources */,
 				CEA74C7D229B1B770008811C /* ParameterEncoding.swift in Sources */,
 				CEEC445A229DF62A009CD548 /* MovieCell.swift in Sources */,
-				CEE4B14422822D5100FF4FB8 /* MovieController.swift in Sources */,
+				CEE4B14422822D5100FF4FB8 /* MoviesController.swift in Sources */,
 				CEA74C78229B1A340008811C /* HTTPMethod.swift in Sources */,
 				CEEC4449229DCB5E009CD548 /* JSONParameterEncoder.swift in Sources */,
 				CEEC444B229DCFF8009CD548 /* NetworkRouter.swift in Sources */,
 				CEA74C75229B18E90008811C /* EndPointType.swift in Sources */,
+				CEF569FD229F082E006B672F /* StoryboardEntry.swift in Sources */,
 				CEA74C7A229B1AA10008811C /* HTTPTask.swift in Sources */,
 				CEA74C71229B17700008811C /* Constant.swift in Sources */,
 				CEA74C6F229B12A80008811C /* Movie.swift in Sources */,
 				CEA74C7F229B1E170008811C /* URLParameterEncoder.swift in Sources */,
+				CEF569F8229F05E1006B672F /* MovieController.swift in Sources */,
 				CEEC4454229DDAC0009CD548 /* MovieViewModel.swift in Sources */,
 				CEEC444F229DD66D009CD548 /* MovieEndPoint.swift in Sources */,
 				CEEC4463229DFBC1009CD548 /* UICollectionView + Extension.swift in Sources */,

@@ -16,7 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        let naVController = UINavigationController(rootViewController: MovieController())
+        let naVController = UINavigationController(rootViewController: MoviesController())
          window?.rootViewController = naVController
         
         return true

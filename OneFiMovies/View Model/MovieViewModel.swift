@@ -12,6 +12,7 @@ class MovieViewModel {
     
     fileprivate let networkManager: NetworkManager!
     var movies = [Movie]()
+    var movie = Movie(title: "", year: "", poster: "", director: "", writer: "", genre: "")
     var reload:(() -> ())?
     var currentPage: Int = 1
     
@@ -19,9 +20,9 @@ class MovieViewModel {
         self.networkManager = networkManager
     }
     
-    func getMovies(title: String, page: Int) {
+    func getMoviesTitlePageSearch(title: String, page: Int) {
         
-        networkManager.getMovies(title: title, page: page) { [weak self] (movies, error) in
+        networkManager.getMoviesPageSearch(title: title, page: page) { [weak self] (movies, error) in
             
             guard let strongSelf = self else { return }
             guard let movies = movies  else { return }

@@ -46,7 +46,7 @@ class MovieController: BaseListController {
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
         let cell = collectionView.dequeue(MovieCell.self, for: indexPath)
-        cell.backgroundColor = .red
+        cell.movie = viewModel.movies[indexPath.row]
         return cell
     }
 }

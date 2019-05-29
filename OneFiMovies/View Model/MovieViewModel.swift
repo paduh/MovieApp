@@ -11,7 +11,7 @@ import Foundation
 class MovieViewModel {
     
     fileprivate let networkManager: NetworkManager!
-    var movies = [Movie(title: "", year: "", poster: "", director: "")]
+    var movies = [Movie]()
     var reload:(() -> ())?
     
     init(networkManager: NetworkManager) {

@@ -31,8 +31,6 @@
 		CEEC445A229DF62A009CD548 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEC4458229DF62A009CD548 /* MovieCell.swift */; };
 		CEEC445B229DF62A009CD548 /* MovieCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEEC4459229DF62A009CD548 /* MovieCell.xib */; };
 		CEEC445D229DF7FF009CD548 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEC445C229DF7FF009CD548 /* CollectionViewController.swift */; };
-		CEEC445F229DF9FD009CD548 /* NSCoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEC445E229DF9FD009CD548 /* NSCoder.swift */; };
-		CEEC4461229DFB98009CD548 /* UITableView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEC4460229DFB98009CD548 /* UITableView + Extension.swift */; };
 		CEEC4463229DFBC1009CD548 /* UICollectionView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEC4462229DFBC1009CD548 /* UICollectionView + Extension.swift */; };
 /* End PBXBuildFile section */
 
@@ -84,8 +82,6 @@
 		CEEC4458229DF62A009CD548 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 		CEEC4459229DF62A009CD548 /* MovieCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieCell.xib; sourceTree = "<group>"; };
 		CEEC445C229DF7FF009CD548 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
-		CEEC445E229DF9FD009CD548 /* NSCoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSCoder.swift; sourceTree = "<group>"; };
-		CEEC4460229DFB98009CD548 /* UITableView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView + Extension.swift"; sourceTree = "<group>"; };
 		CEEC4462229DFBC1009CD548 /* UICollectionView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView + Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -247,8 +243,6 @@
 		CEE4B17322822D8200FF4FB8 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				CEEC445E229DF9FD009CD548 /* NSCoder.swift */,
-				CEEC4460229DFB98009CD548 /* UITableView + Extension.swift */,
 				CEEC4462229DFBC1009CD548 /* UICollectionView + Extension.swift */,
 			);
 			path = Extensions;
@@ -450,12 +444,10 @@
 				CEA74C6F229B12A80008811C /* Movie.swift in Sources */,
 				CEA74C7F229B1E170008811C /* URLParameterEncoder.swift in Sources */,
 				CEEC4454229DDAC0009CD548 /* MovieViewModel.swift in Sources */,
-				CEEC4461229DFB98009CD548 /* UITableView + Extension.swift in Sources */,
 				CEEC444F229DD66D009CD548 /* MovieEndPoint.swift in Sources */,
 				CEEC4463229DFBC1009CD548 /* UICollectionView + Extension.swift in Sources */,
 				CEEC4452229DD851009CD548 /* NetworkManager.swift in Sources */,
 				CEE4B14222822D5100FF4FB8 /* AppDelegate.swift in Sources */,
-				CEEC445F229DF9FD009CD548 /* NSCoder.swift in Sources */,
 				CEEC4456229DEEF5009CD548 /* NetworkLogger.swift in Sources */,
 				CEEC444D229DD124009CD548 /* Router.swift in Sources */,
 			);

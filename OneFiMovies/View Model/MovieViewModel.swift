@@ -12,7 +12,7 @@ class MovieViewModel {
     
     fileprivate let networkManager: NetworkManager!
     var movies = [Movie]()
-    var movie = Movie(title: "", year: "", poster: "", director: "", writer: "", genre: "")
+    var movie = Movie(title: "", year: "", poster: "", director: "")
     var reload:(() -> ())?
     var currentPage: Int = 1
     

@@ -9,7 +9,10 @@
 /* Begin PBXBuildFile section */
 		7F67EE51591B95833DF1121C /* Pods_OneFiMoviesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E02EF64723133B1502DA4E45 /* Pods_OneFiMoviesTests.framework */; };
 		A369CE3C82D168FFB33FCCEE /* Pods_OneFiMovies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AD8A8A7A35BB0C7A4B62469 /* Pods_OneFiMovies.framework */; };
+		CE010555229F54FA00BF9E1A /* MovieViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE010554229F54FA00BF9E1A /* MovieViewModelTest.swift */; };
+		CE010558229F558600BF9E1A /* MockNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE010557229F558600BF9E1A /* MockNetworkManager.swift */; };
 		CE892E06229E0A09004D2A88 /* MovieDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE892E05229E0A09004D2A88 /* MovieDetailsController.swift */; };
+		CE9C836A229F49A800098A5B /* MovieTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9C8369229F49A800098A5B /* MovieTest.swift */; };
 		CEA74C6F229B12A80008811C /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA74C6E229B12A80008811C /* Movie.swift */; };
 		CEA74C71229B17700008811C /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA74C70229B17700008811C /* Constant.swift */; };
 		CEA74C75229B18E90008811C /* EndPointType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA74C74229B18E90008811C /* EndPointType.swift */; };
@@ -66,7 +69,10 @@
 		7833DD978A6ED566BC944CC7 /* Pods-OneFiMoviesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneFiMoviesUITests.release.xcconfig"; path = "Target Support Files/Pods-OneFiMoviesUITests/Pods-OneFiMoviesUITests.release.xcconfig"; sourceTree = "<group>"; };
 		7AD8A8A7A35BB0C7A4B62469 /* Pods_OneFiMovies.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OneFiMovies.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B97244FE0A7D3160AB312068 /* Pods-OneFiMoviesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneFiMoviesTests.release.xcconfig"; path = "Target Support Files/Pods-OneFiMoviesTests/Pods-OneFiMoviesTests.release.xcconfig"; sourceTree = "<group>"; };
+		CE010554229F54FA00BF9E1A /* MovieViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewModelTest.swift; sourceTree = "<group>"; };
+		CE010557229F558600BF9E1A /* MockNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNetworkManager.swift; sourceTree = "<group>"; };
 		CE892E05229E0A09004D2A88 /* MovieDetailsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsController.swift; sourceTree = "<group>"; };
+		CE9C8369229F49A800098A5B /* MovieTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTest.swift; sourceTree = "<group>"; };
 		CEA74C6E229B12A80008811C /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		CEA74C70229B17700008811C /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		CEA74C74229B18E90008811C /* EndPointType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPointType.swift; sourceTree = "<group>"; };
@@ -141,6 +147,30 @@
 				27C93BD4239F20C3D95FA18C /* Pods_OneFiMoviesUITests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE010553229F54CD00BF9E1A /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE010554229F54FA00BF9E1A /* MovieViewModelTest.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		CE010556229F557400BF9E1A /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				CE010557229F558600BF9E1A /* MockNetworkManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		CE9C836B229F530D00098A5B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE9C8369229F49A800098A5B /* MovieTest.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		CEA74C72229B18C30008811C /* Networking */ = {
@@ -227,6 +257,9 @@
 		CEE4B15522822D5400FF4FB8 /* OneFiMoviesTests */ = {
 			isa = PBXGroup;
 			children = (
+				CE010556229F557400BF9E1A /* Network */,
+				CE010553229F54CD00BF9E1A /* View Model */,
+				CE9C836B229F530D00098A5B /* Model */,
 				CEE4B15622822D5400FF4FB8 /* OneFiMoviesTests.swift */,
 				CEE4B15822822D5400FF4FB8 /* Info.plist */,
 			);
@@ -616,7 +649,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE9C836A229F49A800098A5B /* MovieTest.swift in Sources */,
 				CEE4B15722822D5400FF4FB8 /* OneFiMoviesTests.swift in Sources */,
+				CE010558229F558600BF9E1A /* MockNetworkManager.swift in Sources */,
+				CE010555229F54FA00BF9E1A /* MovieViewModelTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

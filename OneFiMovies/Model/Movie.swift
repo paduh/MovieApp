@@ -2,7 +2,7 @@
 //  Movie.swift
 //  OneFiMovies
 //
-//  Created by Perfect Aduh on 07/05/2019.
+//  Created by Perfect Aduh on 29/05/2019.
 //  Copyright © 2019 Perfect Aduh. All rights reserved.
 //
 
@@ -15,8 +15,6 @@ struct Movie: Codable {
     let year: String
     let poster: String
     var director: String?
-    var writer: String?
-    var genre: String?
 
 
     private enum CodingKeys: String, CodingKey {
@@ -25,11 +23,18 @@ struct Movie: Codable {
         case year = "Year"
         case poster = "Poster"
         case director = "Director"
-        case writer = "Writer"
-        case genre = "Genre"
     }
 }
 
+extension Movie: Equatable {
+    
+    static func ==(lhs: Movie, rhs: Movie) -> Bool {
+        return lhs.title == rhs.title &&
+            lhs.director == rhs.director &&
+            lhs.poster == rhs.poster &&
+            lhs.year == rhs.year
+    }
+}
 
 struct MovieResponse: Codable {
     
@@ -42,5 +47,15 @@ struct MovieResponse: Codable {
         case response = "Response"
         case totalResults
         case movies = "Search"
+    }
+}
+
+
+extension MovieResponse: Equatable {
+    
+    static func ==(lhs: MovieResponse, rhs: MovieResponse) -> Bool {
+        return lhs.response == rhs.response &&
+            lhs.totalResults == rhs.totalResults &&
+            lhs.movies == rhs.movies
     }
 }
